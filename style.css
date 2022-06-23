@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-family: 'Source Code Pro', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 50px;
+}
+
+#app p {
+  padding: 5px 0px;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  color: #000;
+}
+
+.section {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.membersData, .editedData {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #2c3e508a;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 12px;
+}
+
+.leftData, .rightData {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #2c3e508a;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 12px;
+}
+
+.sectionName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+} 
+
+.group {
+  margin: 5px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  gap: 6px;
+}
+
+.groupName {
+  padding: 5px 0px;
+}
+
+.assistantName {
+  padding: 5px 0px;
+}
+
+.groupMembers {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-left: 0;  
+  margin-left: 0;
+}
+
+.groupMembersTitle {
+  padding: 5px;
+  padding-left: 0;
+}
+
+.groupMembers li {
+  list-style: none;
+  margin-bottom: 4px;
+}
+
+
